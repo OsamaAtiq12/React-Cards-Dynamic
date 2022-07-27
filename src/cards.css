@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing {
+  background-color: white;
+  margin: auto;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 3px black;
+
+  height: 575px;
+  width: 300px;
+}
+.pricing :focus {
+  border: 1px solid grey;
+}
+
+.inner-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.myhead {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: #d71920;
+
+  font-weight: 700;
+  line-height: 4.8rem;
+}
+
+.mycontent {
+  float: left;
+}
+
+.div-wrapper {
+  position: relative;
+  height: 250px;
+  width: 250px;
+}
+
+.div-wrapper img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.time {
+  margin-top: 10px;
+  font-size: 1.1 rem;
+  min-height: 28px;
+  text-transform: none !important;
+  font-weight: 500;
+  color: #57585b;
+}
+
+h2 {
+  font-size: 4.125 rem !important;
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+  line-height: 2.125rem;
+  text-transform: uppercase;
+  color: #d71920;
+}
+
+.btn {
+  font-size: 0.875rem;
+  margin: 10px 1px;
+  padding: 18px 40px;
+  font-weight: 400;
+  line-height: 1rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: #d71920;
+  border: 0;
+  border: 1px solid #d71920;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  padding: 10px;
+}
+.grid-item {
+  margin-bottom: 50px;
+}
